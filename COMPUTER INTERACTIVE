@@ -41,7 +41,7 @@ t.test(iris$Petal.Length,iris$Petal.Width)
 
 #CHI-SQUARE
 chisq.test(iris$Sepal.Length,iris$Sepal.Width,iris$Petal.Length)
-
+   
 #LINEAR REGRESSION
 relation<-lm(iris$Sepal.Length~iris$Sepal.Width)
 print(relation)
@@ -60,7 +60,6 @@ plot(z,which=1)
 #BAR PLOT
 barplot(iris$Sepal.Width,iris$Sepal.Length,main="scatterplot",xlab="Sepal.Width",ylab="Sepal.length",col="steelblue",pch=19)
 barplot(iris$Petal.Width,iris$Petal.Length,main="scatterplot",xlab="Sepal.Width",ylab="Sepal.length",col="steelblue",pch=19)
-
 
 #HISTOGRAM
 hist(iris$Sepal.Length,main="histogram~Sepal.Length",xlab="length",ylab="frequency",col="steelblue")
